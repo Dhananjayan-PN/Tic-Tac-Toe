@@ -14,15 +14,15 @@
   </head>
   <body style="background-color: rgb(26, 25, 25)">
     <div class="container">
-      <div class="jumbotron jumbotron-dark" style="background-color: rgb(37, 37, 37)">
+      <div class="jumbotron jumbotron-dark" style="background-color: #343a40">
         <div class="container">
-          <h1 class="display-4" style="color: white">Welcome to Tic Tac Toe!</h1>
-          <hr style="border: 0.5px solid rgb(124, 124, 124); border-radius: 5px" />
-          <button id="restart-button" type="button" class="btn btn-primary">Restart</button>
+          <h1 style="color: white">Welcome to Tic Tac Toe!</h1>
+          <hr style="border: 1px solid cyan; border-radius: 5px" />
+          <button id="restart-button" type="button" class="btn btn-outline-primary" style="color: cyan; border-color: cyan">Restart</button>
         </div>
       </div>
-      <h4 align="center" id="turn" style="color: rgb(219, 217, 217); margin-bottom: 20px"></h4>
-      <table align="center" style="background-color: rgb(37, 37, 37); margin-bottom: 50px">
+      <h4 align="center" id="turn" style="color: rgb(236, 234, 234); margin-bottom: 20px"></h4>
+      <table align="center" style="background-color: #343a40; margin-bottom: 80px">
         <tbody>
           <tr>
             <td id="0"></td>
@@ -42,6 +42,13 @@
         </tbody>
       </table>
     </div>
+    <footer class="footer mt-auto py-3 bg-dark" align="center">
+      <div class="container">
+        <span style="color: rgb(255, 255, 255)"
+          >Made with ❤️ by <a style="color: aqua" href="https://dhananjayan.tech" class="link">Dhananjayan P N</a></span
+        >
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

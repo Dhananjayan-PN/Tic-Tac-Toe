@@ -3,7 +3,11 @@ td {
   width: 150px;
   text-align: center;
   padding: 50;
-  border: 1px solid white;
+  border: 1px solid cyan;
   color: white;
   font-size: 100px;
+}
+#restart-button:hover {
+  color: #343a40 !important;
+  background-color: cyan;
 }
