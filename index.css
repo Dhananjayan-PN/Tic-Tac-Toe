@@ -11,3 +11,6 @@ td {
   color: #343a40 !important;
   background-color: cyan;
 }
+#restart-button:focus {
+  outline: none !important;
+}
